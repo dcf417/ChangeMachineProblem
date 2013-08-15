@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeMachineProblem", "ChangeMachineProblem\ChangeMachineProblem.csproj", "{0AB83A74-1124-4AE5-81C0-AA019F3D4838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeMachineProblemTests", "ChangeMachineProblemTests\ChangeMachineProblemTests.csproj", "{C0217CC9-FDE0-4061-B760-B96DE607EA9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AB83A74-1124-4AE5-81C0-AA019F3D4838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB83A74-1124-4AE5-81C0-AA019F3D4838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB83A74-1124-4AE5-81C0-AA019F3D4838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB83A74-1124-4AE5-81C0-AA019F3D4838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0217CC9-FDE0-4061-B760-B96DE607EA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0217CC9-FDE0-4061-B760-B96DE607EA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0217CC9-FDE0-4061-B760-B96DE607EA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0217CC9-FDE0-4061-B760-B96DE607EA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
