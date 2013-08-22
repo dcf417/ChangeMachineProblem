@@ -97,6 +97,15 @@ namespace ChangeMachineProblemTests
             var result = _changeMachine.MakeChange(20.00);
             Assert.AreEqual(2, result[10.00]);
         }
+
+        [TestMethod]
+        public void It_should_return_two_dimes_one_nickel_and_a_penny_for_twenty_six_cents_if_a_dime_is_requested()
+        {
+            var result = _changeMachine.MakeChange(0.26, 0.10);
+            Assert.AreEqual(2, result[0.10]);
+            Assert.AreEqual(1, result[0.05]);
+            Assert.AreEqual(1, result[0.01]);
+        }
     }
 }
 
